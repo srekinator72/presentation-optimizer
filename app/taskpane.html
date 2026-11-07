@@ -1,1 +1,31 @@
-<!doctype html><html lang="ru"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=Edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Presentation Optimizer</title><script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script><link rel="stylesheet" href="https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/office-ui-fabric-core/11.1.0/css/fabric.min.css"/><link href="0b3ae58c35e2ca134000.css" rel="stylesheet"/><script defer="defer" src="polyfill.js"></script><script defer="defer" src="taskpane.js"></script></head><body class="ms-font-m ms-Fabric"><section id="sideload-msg" class="ms-welcome__main"><p>Загрузка Presentation Optimizer...</p></section><main id="app-body" class="optimizer" style="display:none"><h1>Presentation Optimizer</h1><p>Диагностика тяжёлых медиафайлов в презентации. Найдём изображения, видео и аудио размером больше 5 МБ.</p><button id="run" class="analyze-button" type="button">Найти проблемы</button><p id="status" class="status" role="status" aria-live="polite">Готов к анализу</p><div id="results" aria-live="polite"></div><p class="footer-note">Исходная презентация не изменяется.</p></main><script src="da561e3b81e1992c2a69.js"></script></body></html>
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Presentation Optimizer</title>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <link rel="stylesheet" href="taskpane.css?v=2.0.0-213a317e17" />
+</head>
+<body>
+  <section id="sideload-msg" class="optimizer">
+    <p class="status">Загрузка Presentation Optimizer…</p>
+  </section>
+
+  <main id="app-body" class="optimizer" style="display:none">
+    <h1>Presentation Optimizer</h1>
+    <p class="lead">Покажет, что утяжеляет презентацию и как это исправить. Файл не меняется и никуда не отправляется.</p>
+
+    <button id="run" class="analyze-button" type="button">Найти проблемы</button>
+    <div id="progress" class="progress" hidden><div></div></div>
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+
+    <div id="results" aria-live="polite"></div>
+
+    <p class="optimizer-footer">Идея и первая версия — Варя Васильева. Версия 2.0.0.</p>
+  </main>
+
+  <script src="taskpane.js?v=2.0.0-213a317e17"></script>
+</body>
+</html>
