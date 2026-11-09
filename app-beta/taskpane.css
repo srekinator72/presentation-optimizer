@@ -496,3 +496,11 @@ body {
     font-size: 20px;
   }
 }
+
+.light-reason {
+  display: block;
+  margin-top: 4px;
+  font-size: 11px;
+  color: #a13c30;
+  overflow-wrap: anywhere;
+}
