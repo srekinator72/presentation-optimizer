@@ -366,6 +366,81 @@ body {
   padding: 12px;
 }
 
+.link-button {
+  margin-top: 6px;
+  padding: 2px 0;
+  border: 0;
+  background: none;
+  color: #20201e;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.pick-list {
+  margin-top: 8px;
+  padding: 4px 12px 10px;
+  background: #ffffff;
+  border: 1px solid #e6e6e1;
+  border-radius: 8px;
+}
+
+.pick-group {
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0ec;
+}
+
+.pick-group:last-child {
+  border-bottom: 0;
+}
+
+.pick-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #20201e;
+}
+
+.pick-items {
+  padding-left: 18px;
+}
+
+.pick-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 3px 0;
+}
+
+.pick-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  min-width: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #252522;
+  cursor: pointer;
+}
+
+.pick-label input,
+.pick-title input {
+  margin: 2px 0 0;
+  accent-color: #a13c30;
+}
+
+.pick-label small {
+  display: block;
+  color: #77776f;
+  font-size: 11px;
+}
+
 .light-note {
   margin: 8px 0 0;
   color: #77776f;
@@ -420,4 +495,12 @@ body {
   .stat-card strong {
     font-size: 20px;
   }
+}
+
+.light-reason {
+  display: block;
+  margin-top: 4px;
+  font-size: 11px;
+  color: #a13c30;
+  overflow-wrap: anywhere;
 }
