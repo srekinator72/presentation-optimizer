@@ -355,6 +355,46 @@ body {
   overflow-wrap: anywhere;
 }
 
+.light-copy {
+  margin: 16px 0 4px;
+}
+
+.light-button {
+  background: #ffffff;
+  color: #252522;
+  border: 1.5px solid #252522;
+  padding: 12px;
+}
+
+.light-note {
+  margin: 8px 0 0;
+  color: #77776f;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.light-done {
+  margin-top: 10px;
+  padding: 12px 14px;
+  background: #ffffff;
+  border: 1px solid #e6e6e1;
+  border-left: 3px solid #252522;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: #252522;
+}
+
+.light-done p {
+  margin: 6px 0 0;
+  color: #77776f;
+}
+
+.light-done a {
+  color: #a13c30;
+  font-weight: 600;
+}
+
 .optimizer-footer {
   margin-top: 28px;
   padding-top: 16px;
